@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'sqlite3'
-gem 'activerecord'
+gem 'activerecord', '~> 7.1'
+gem 'sqlite3', '~> 1.4'
+gem 'faker', '<1.9'
